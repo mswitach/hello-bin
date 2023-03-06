@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+from binance.um_futures import UMFutures
 import time
 import streamlit as st
 
