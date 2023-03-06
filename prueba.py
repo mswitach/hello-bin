@@ -12,7 +12,7 @@ options = [
 ]
 
 base_endpoint = st.selectbox(label="Base endpoint", options=options)
-url = f"{base_endpoint}/api/v3/depth?symbol=BTCBUSD&limit=5"
+url = f"{base_endpoint}/api/v3/depth?symbol=BTCBUSD&limit=1"
 st.write(url)
 response = requests.get(url)
 st.write(response.json())
